@@ -19,21 +19,21 @@ void swap(int *xp,int *xq)
 
 void bubblesort(int a[],int n)
 {
-	for(int i=0;i<n-1;i++)
+	for(int i=0;i<n;i++)
 	{
-		int tmp=i;
-		for(int j=1;j<n;j++)
+		//int tmp=i;
+		for(int j=0;j<n-i-1;j++)
 		{
-			if(a[tmp]>a[j])
-			swap(&a[tmp],&a[j]);
-			tmp=j;
+			if(a[j+1]<a[j])
+			swap(&a[j+1],&a[j]);
+
 		}
 	}
 }
 
 int main()
 {
-	int a[]={1,4,5,3,2};
+	int a[]={3,3,2,1,1,5};
 	int n=sizeof(a)/sizeof(a[0]);
 	bubblesort(a,n);
 
