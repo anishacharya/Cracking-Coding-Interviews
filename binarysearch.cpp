@@ -6,41 +6,35 @@
 
 using namespace std;
 
-int binarysearch(int a[],int start,int end,int key)
+int search(int a[],int i,int l,int r)
 {
+	int m=(l+r)/2;
 
-	if(end>=start)
+	if(a[m]==i)
+		return m;
+	else
 	{
-		int mid=start+(end-1)/2;
-		if(a[mid]==key)
-			return mid;
+		if(i<a[m])
+			return search(a,i,l,m-1);
 		else
-		{
-			if(a[mid]>key)
-			{
-				end=mid-1;
-				return binarysearch(a,start,end,key);
-			}
-			if(a[mid]<key)
-			{
-				start=mid+1;
-				return binarysearch(a,start,end,key);
-			}
-		}
-
+			return search(a,i,m+1,r);
 	}
-
 	return -1;
 }
-
 int main()
 {
-	int a[]={1,2,3,4,5};
-	int start=0;
-	int end=sizeof(a)/sizeof(a[0]);
-	end=end-1;
-	//cout<<end;
-	int result=binarysearch(a,start,end,1);
-	cout<<result<<endl;
-return 0;
+	int a[]={1,2,3,4,5,6,7,8};
+	int n=sizeof(a)/sizeof(a[0]);
+
+
+	int m= search(a,5,0,n-1);
+	if(m==-1)
+		cout<<"not found";
+	else
+		cout<<m;
+
+	return 0;
+
+
 }
+
