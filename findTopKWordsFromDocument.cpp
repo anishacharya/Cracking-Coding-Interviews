@@ -1,8 +1,6 @@
 #include 	<iostream>
 #include 	<map>
 #include	<cstring>
-#include	<algorithm>
-#include 	<ctype.h>
 #include	<fstream>
 #include   <queue>
 
@@ -38,7 +36,8 @@ void FindTopK (int k,string filename,bool flag)
   	  {
   		pq.push(std::make_pair(it->second, it->first));      ///push into heap
   	  }
-  	for(int i=1;i<=k;i++)
+  	int size=mymap.size();
+  	for(int i=1;i<=k && i<=size;i++)
   	{
   		std::cout << pq.top().first << ", " << pq.top().second << std::endl;
   		pq.pop();
@@ -54,7 +53,18 @@ int main()
     FILE *f = fopen ("test.txt", "r");
     if (f == NULL)
         cout<<"File doesn't exist ";
-    else FindTopK(K,"test.txt",0);    //-----set flag to 1 if want to see the frequency of all the words
+    else FindTopK(K,"test.txt",1);    //-----set flag to 1 if want to see the frequency of all the words
     return 0;
 }
+
+/////Corner Cases to Test:
+/////Empty file  						-  PASSED
+/////Number of words< K   				-  PASSED
+
+/*
+ PS: ANISH and anish are interpreted as different words here i.e. upper and lower case strings
+ in order to include that facility to treat them as same
+we need to use something like toupper (string c) or tolower(string c)
+as a pre-processing step
+*/
 
