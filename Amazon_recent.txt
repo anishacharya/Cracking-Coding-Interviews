@@ -1,0 +1,4 @@
+1.  Find the missing number in the increasing sequence. i.e. :
+    input: 1 2 3 5 6 7 output: 4. Tell the complexity.
+2.  Tell YES or NO if two binary trees have the same numbers (could be of different structures, non-unique elements)
+3.  Find the nth from frequent character in string (any character)
