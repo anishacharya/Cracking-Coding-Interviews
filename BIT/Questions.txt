@@ -1,0 +1,29 @@
+1. Decimal to Binary / Binary to Decimal Conversion
+2. Sum of a,b without using any arithmatic operator
+3. Set / unset k-th bit.
+4. Flip k th bit
+5. Count set bits in an integer
+** 6. Count number of bits to be flipped to convert A to B
+7. Find position of the only set bit
+** 8. find whether a no is power of two
+9. given no n, finds a number p which is greater than or equal to n and is a power of 2
+10. Find the Number Occurring Odd Number of Times
+11. Rotate bits of a number
+12. All but all num occur in pair- find the single number
+13. All but one num occur 3 times - find the single number
+14. integer absolute value (abs) without branching
+15. Multiply a given Integer with 3.5
+** 16. Explain what the following code does: ((n & (n-1)) == 0).
+** 17. You are given two 32-bit numbers, N and M, and two bit positions, i and j. Write a
+        method to set all bits between i and j in N equal to M (e.g., M becomes a substring of
+        N located at i and starting at j)
+** 18. Given a (decimal - e.g. 3.72) number that is passed in as a string, print the binary representation.
+        If the number can not be represented accurately in binary, print “ERROR”
+** 19. Given an integer, print the next smallest and next largest number that have the same
+        number of 1 bits in their binary representation.
+** 20.  swap odd and even bits in an integer  
+** 21. An array A[1...n] contains all the integers from 0 to n except for one number which is
+        missing. In this problem, we cannot access an entire integer in A with a single operation.
+        The elements of A are represented in binary, and the only operation we can use
+        to access them is “fetch the jth bit of A[i]”, which takes constant time. Write code to
+        find the missing integer. Can you do it in O(n) time?
