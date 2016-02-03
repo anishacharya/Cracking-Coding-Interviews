@@ -2,3 +2,6 @@
     input: 1 2 3 5 6 7 output: 4. Tell the complexity.
 2.  Tell YES or NO if two binary trees have the same numbers (could be of different structures, non-unique elements)
 3.  Find the nth from frequent character in string (any character)
+
+// Career Cup
+The interviewers provided a few input files that represented a contrived inventory picture across a number of warehouses. Our task was to write a program that determined which items needed to be restocked. 
