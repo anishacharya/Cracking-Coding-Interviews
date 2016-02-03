@@ -4,4 +4,5 @@
 3.  Find the nth from frequent character in string (any character)
 
 // Career Cup
-The interviewers provided a few input files that represented a contrived inventory picture across a number of warehouses. Our task was to write a program that determined which items needed to be restocked. 
+** The interviewers provided a few input files that represented a contrived inventory picture across a number of warehouses. Our task was to write a program that determined which items needed to be restocked. 
+** go about scheduling some various tasks, given priorities, time constraints, etc
