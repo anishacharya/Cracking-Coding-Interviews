@@ -22,6 +22,12 @@ int sumofint(int a,int b)
 		return 0;
 	return a+sumofint(a+1,b);
 }
+int sum(int a,int b)
+{
+	int sum=0;
+	return sum_rec(sum,a,b);
+
+}
 int sum_rec(int &sum,int a,int b)
 {
 	//int sum=0;
@@ -29,13 +35,6 @@ int sum_rec(int &sum,int a,int b)
 		return sum;
 	sum=sum+a;
 	return sum_rec(sum,a+1,b);
-}
-
-int sum(int a,int b)
-{
-	int sum=0;
-	return sum_rec(sum,a,b);
-
 }
 
 int cube (int x)
@@ -46,7 +45,7 @@ int sumofcubes(int a,int b)
 {
 	if(a>b)
 			return 0;
-	return (cube(a)+sumofcubes(a+1,b));
+	return cube(a)+sumofcube(a+1,b);
 }
 
 int main()
