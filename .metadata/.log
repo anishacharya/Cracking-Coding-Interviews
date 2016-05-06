@@ -60,3 +60,67 @@ java.io.FileNotFoundException: /Users/aniacharya/Desktop/Common-Interview-Questi
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:924)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1128)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2016-05-05 16:34:30.427 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/aniacharya/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/aniacharya/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.cdt.core 4 0 2016-05-05 16:34:56.138
+!MESSAGE Error: Project: testing_scala is closed or inaccessible!
+!STACK 1
+org.eclipse.core.runtime.CoreException: Project: testing_scala is closed or inaccessible!
+	at org.eclipse.cdt.internal.core.settings.model.ExceptionFactory.createCoreException(ExceptionFactory.java:22)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionStorage(CProjectDescriptionManager.java:858)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getStorageForElement(CProjectDescriptionManager.java:873)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationSpecSettings.getStorageBase(CConfigurationSpecSettings.java:299)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationSpecSettings.getStorage(CConfigurationSpecSettings.java:271)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescription.getStorage(CConfigurationDescription.java:334)
+	at org.eclipse.cdt.internal.core.CConfigBasedDescriptor.getProjectStorageElement(CConfigBasedDescriptor.java:437)
+	at org.eclipse.cdt.internal.core.language.LanguageMappingStore.decodeMappings(LanguageMappingStore.java:76)
+	at org.eclipse.cdt.core.model.LanguageManager.getLanguageConfiguration(LanguageManager.java:447)
+	at org.eclipse.cdt.internal.core.language.LanguageMappingResolver.computeLanguage(LanguageMappingResolver.java:57)
+	at org.eclipse.cdt.core.model.LanguageManager.getLanguageForFile(LanguageManager.java:587)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getLanguage(TranslationUnit.java:726)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getLanguages(ProjectIndexerInputAdapter.java:183)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.extractFiles(AbstractIndexerTask.java:393)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:335)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:127)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:84)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2016-05-05 16:34:56.139
+!MESSAGE Project: testing_scala is closed or inaccessible!
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-05-05 16:34:57.247
+!MESSAGE Indexed 'Intelletec' (0 sources, 176 headers) in 1.13 sec: 1,969 declarations; 3,078 references; 0 unresolved inclusions; 6 syntax errors; 2 unresolved names (0.04%)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2016-05-05 16:36:30.899
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/aniacharya/Desktop/Common-Interview-Questions/Intelletec/Debug/testing_scala not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:663)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:679)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:924)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1128)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2016-05-05 16:36:36.373
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /Users/aniacharya/Desktop/Common-Interview-Questions/Intelletec/Debug/testing_scala not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:663)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:679)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:924)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1128)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

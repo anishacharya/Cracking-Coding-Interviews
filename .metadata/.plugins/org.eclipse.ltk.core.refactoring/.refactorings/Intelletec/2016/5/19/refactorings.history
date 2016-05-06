@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Intelletec/src/Find_Repeated_Characters&apos; to &apos;Find_Repeated_Characters.cpp&apos;" description="Rename resource &apos;Find_Repeated_Characters&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Find_Repeated_Characters" name="Find_Repeated_Characters.cpp" stamp="1462491345769" updateReferences="true"/>
+</session>
