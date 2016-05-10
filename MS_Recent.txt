@@ -1,0 +1,6 @@
+#1. Intersection of two Linked List
+#2. Recursive and Iterative traversal of Tree
+#3. LRU Cache
+#4. Binary Search
+#5. Ht of a Binary tree
+#6. Find the first 1 entry in a Binary number
