@@ -4,3 +4,47 @@
 #4. Binary Search
 #5. Ht of a Binary tree
 #6. Find the first 1 entry in a Binary number
+#7. Are two words palindrome of each other?  
+#8. Divide two numbers without using / or % and return quotient. 
+#9. LCA of 2 nodes in a binary tree (not BST)
+#10.Rearrange digits of a number to find the largest possible number in O(n) time. 
+#11.Find first common ancestor given 2 nodes in a tree not necessarily a binary tree. 
+#12.Clone a linked list with random pointer  
+#13.merge procedure of merge sort.  
+#14.Give a array, depart negative and positive number.  
+#15.Implement a function that insert a node into a doubly linked list  
+#16.How can you test a calculator.  
+#17.Find the largest sub-array in an array. How would you re-balance a BST.  
+#18.Reverse LinkedList.
+#19.Are two strings anagrams  
+#20.Find shifting point in a shifted array.
+#21.Create a queue (enqueue and dequeue methods) using stacks as your only storage method
+#22.Binary tree from inorder and preorder traversal pair
+#23.Find where two linked lists converge in O(n) time and O(1) memory. Linked lists are guarantied to be valid and to converge at some point
+#24.Print duplicates in an array 
+#25.Given a list of objects, each with a unique hashcode, how would you find a duplicate? What if the list was so large that it didn't fit on one computer?  
+#26.Given a list of numbers, sort them and remove the duplicate numbers.  
+#27.You have two substrings of a string that overlap. How would you put them together into one string?  
+#28.Given two sorted arrays, combine the two arrays in order without using a sort algorithms after the merge?  
+#29.Write an atoi function for scratch.
+#30.Turn a tree into a doubly linked list  
+#31.Serialize a tree
+#32.Ways to print a singly-linked list in reverse order. Advantages/disadvantages.
+#33.Given a number (e.g.: 427) find the largest possible number from its digits (e.g.: 742) 
+#34.Find the maximum product of 3 numbers in a list.
+#35.Find a cycle in singly linked list  
+#36.Determine whether parentheses are properly matched on a string. 
+#37.Given a dictionary of strings and another string find out if the string is an exact match to some words in the dictionary or varies at most in only one place of some word of the dictionary. 
+#38.Reverse only the words of a sentence
+#38.how would you delete a node of a linked list without traversing it.
+#39.How do you merge two sorted lists of numbers without using any extra memory. the second list has enough memory allocated to fit both lists entirely.  
+#40.Best way to make a tictactoe game.  
+#41.what is a nested tree? 
+#42.Array of length n, its elements are x-powers of the range (1 to n+1). There is one repeated element, find it.
+#43.given a string shuffle it so that no two same letters are together. 
+#44. Cycle in a directed graph
+#45. Given a DNA seq find duplicates within length 10
+#46.Given a random list of integers write a function that returns sets taken from the list such that the sum of these numbers is equal (if possible).
+#47.Add a node on an ordered linked list  
+#48.write a function to find the n-th fibonacci number
+#49.  
