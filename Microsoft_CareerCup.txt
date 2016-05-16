@@ -1,0 +1,129 @@
+#1.Given a list of IP address correspondences, such as 
+IP1 = IP2 
+IP3 = IP4 
+IP3 = IP2 
+IP5 = IP6 
+IP7 = IP8 
+etc. 
+Return a list of unique IP addresses. In this case 
+IP1, IP5, IP7 
+Consider IPs as Strings or any other data type.
+
+ #2. Given a list of integers (array or list), write a function that returns true if the list can be split into two lists that have an equal sum. 
+Example: {4,2,2,0,-1, 1} returns true 
+{4}, {2,2,0,-1,1} 
+and {3,3,1} returns false. 
+
+Hints by interviewer: 
+- Complexity is 2^n
+
+#3. Given 4 teams and 3 gamedays, create an algorithm such that each team plays another team every gameday and by the end of the 3 game days each team should have played one game with every other team.
+
+#4.Given an array of ints (positive numbers) find out the index that balances the array. If no such index exists, return the index that minimizes the difference. 
+
+How can you do it by touching each element only once.
+
+#5.Insert an int into a circular single linked list. 
+
+Discuss corner cases: what if the element to be inserted is the smallest, how can we speed things up (e.g. if the method is called multiple times you can keep track of the "last"/greatest element). 
+
+Thorough testing discussions.
+
+#6. How to sort a very large array (>50GB int array) stored on disk given that you have a 200MB RAM memory. 
+
+Discussions on this: test it, corner cases, etc.
+
+#7.Given a number (integer) as a string turn in into a number: 
+
+E.g. "One million two hundreds thousands fifty seven" => shoud return 1200057. 
+
+How to model it and how to test it? What data structures would you use. Deep testing (corner cases)
+
+#8.Given a number N, write all possible sums of consecutive numbers that add up to N. 
+
+That is: 
+return all pairs (a, k) such that a+(a+1)+...+(a+k)=n 
+
+After that: 
+1. what if N is negative or a is negative; 
+2. what if N is real and the possible implications of this
+
+
+#9. How would you convert a row number on Excel to a label? Rows are labeled alphabetically with letters added on once the alphabet has been fully used. (Ex. row # 5 is labeled E, row # 27 is labeled AA, row # 28 is AB, row # 53 is BA and so forth) What would the row label be for a large number, such as 1500?
+
+#10. Given a singly connected linked list, find the largest palindrome in the list in O(1) space.
+
+#11. Given a linked list consisting of String in each Node . Given just a pointer to the head Node find whether the resultant String formed by combining all the Nodes of the linked list is a palindrome or not in O(1) space and O(n) time. 
+
+eg – Consider this linked List structure 
+
+“aba” -> “cd” -> “efe” -> “d” -> “caba” 
+
+Hence this structure is palindrome .
+
+#12. Given a tree, and a pointer to some node in the tree, print the left most element in the same level as that node
+
+#13. Given a binary tree, connect all node in the same level in toggle manner. 
+
+Toggle the linking every K level. For first K level, you should link to next right node. Next K you should link to next left and so on. 
+
+Node structure is : 
+
+struct node 
+{ 
+int data; 
+struct node *left, *right, *next; 
+}; 
+
+Each level next should point to the next right or left node in the level. For last node in each level, next should be NULL 
+
+For ex - if K=2 then for first 2 level of tree connect next pointer from left to right and for next 2 levels connect next pointer from right to left and so on.
+
+#14.Check given Number is same after 180 degree rotation? 
+
+i/p: 69 
+o/p: True 
+
+i/p: 916 
+o/p: True 
+
+i/p: 123 
+o/p: False
+
+#15. Given a sentence in a form of a string, reverse the words in the string and return a string. Handle a case where there might be period at the end of the sentence. If there is a period, the period has to come to the end of the reversed sentence. Discuss the time complexity of your algorithm. 
+
+INPUT: "This is a sentence" 
+OUTPUT: "sentence a is This" 
+
+INPUT2: "This one has period." 
+OUTPUT2: "period has one This."
+
+#16. there are N cities (numbered from 1 to N) in the game and connect them by N-1 highways. It is guaranteed that each pair of cities are connected by the highways directly or indirectly.The game has a very important value called Total Highway Distance (THD) which is the total distances of all pairs of cities. Suppose there are 3 cities and 2 highways. The highway between City 1 and City 2 is 200 miles and the highway between City 2 and City 3 is 300 miles. So the THD is 1000(200 + 500 + 300) miles because the distances between City 1 and City 2, City 1 and City 3, City 2 and City 3 are 200 miles, 500 miles and 300 miles respectively. 
+
+During the game the length of some highways may change. you want to know the latest THD. 
+
+sample input 
+3 5 
+1 2 2 
+2 3 3 
+QUERY 
+EDIT 1 2 4 
+QUERY 
+EDIT 2 3 2 
+QUERY 
+
+sample output 
+10 
+14 
+12
+
+#17. Given two arrays were digits of one array represent a number,maxmise the number by replacing it with elements of second array. 
+eg: 
+arr={3,1,4,5,6} 
+rep={1,9,5,2,3} 
+
+after replacement 
+arr={9,5,4,5,6} 
+one digit of rep can be used to replace only once.
+
+ 
