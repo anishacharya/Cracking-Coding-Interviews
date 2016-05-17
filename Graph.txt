@@ -1,0 +1,5 @@
+#1. BFS
+#2. DFS
+#3. Check if there is a path between two nodes in a directed graph
+#4. Detect Cycle in Graph
+#5. Topological Sorting
