@@ -55,34 +55,36 @@ void findU_I(int A[], int B[],int m, int n, vector<int> &Union, vector<int> &Int
         
     }
 }
-
-
 void SetDiff(int A[], int B[],int m, int n, vector<int> &set)
 {
     int i=0;
-    int j=0;
+    int j=0; int count=0;
     int curr;
+    cout<<curr<<endl;
+    
     while(i<m && j<n)
     {
         if(A[i]<B[j])
         {
-            if(curr!=A[i])
+            if(curr!=A[i] || count ==0)  // In Case the default curr == the first element in Soln. 
+            {
                 set.push_back(A[i]);
-            curr=A[i];
+                curr=A[i]; count++;
+            }
             i++;
         }
         if(A[i]==B[j])
         {
             if(curr!=A[i])
             {
-                set.push_back(A[i]);
+                curr=A[i];
+                
             }
             i++;
             j++;
         }
     }
 }
-
 void print_vector(vector<int> V)
 {
     for(int i=0; i<V.size();i++)
@@ -90,7 +92,7 @@ void print_vector(vector<int> V)
 }
 
 int main() {
-	int A[] = {1,2,2,3};
+    int A[] = {0,1,2,2,3};
     int B[] = {3,3,4,4};
     int m = sizeof(A)/sizeof(A[0]);
     int n = sizeof(B)/sizeof(B[0]);
@@ -106,5 +108,5 @@ int main() {
     SetDiff(A,B,m,n,set);
     cout<<"Set Difference"<<endl;
     print_vector(set);
-	return 0;
+    return 0;
 }
