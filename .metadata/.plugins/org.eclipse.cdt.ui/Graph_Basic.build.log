@@ -1,0 +1,14 @@
+
+**** Build of configuration Debug for project Graph_Basic ****
+
+make all 
+Building file: ../src/adj_list1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/adj_list1.d" -MT"src/adj_list1.d" -o"src/adj_list1.o" "../src/adj_list1.cpp"
+Finished building: ../src/adj_list1.cpp
+ 
+Building target: Graph_Basic
+Invoking: MacOS X C++ Linker
+g++  -o "Graph_Basic"  ./src/Graph_Basic.o ./src/adj_list1.o   
+Finished building target: Graph_Basic
+ 

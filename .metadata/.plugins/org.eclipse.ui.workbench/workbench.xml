@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="14" version="2.0">
+<workbench progressCount="16" version="2.0">
 <workbenchAdvisor/>
-<window height="799" maximized="true" width="1346" x="4" y="30">
+<window height="811" maximized="true" width="1391" x="19" y="81">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -30,13 +30,18 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Find_Repeated_Characters.cpp" partName="Find_Repeated_Characters.cpp" path="/Users/aniacharya/Desktop/Common-Interview-Questions/Intelletec/src/Find_Repeated_Characters.cpp" title="Find_Repeated_Characters.cpp" tooltip="Intelletec/src/Find_Repeated_Characters.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Intelletec/src/Find_Repeated_Characters.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="101" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="adj_list1.cpp" partName="adj_list1.cpp" path="/Users/aniacharya/Desktop/Common-Interview-Questions/Graph_Basic/src/adj_list1.cpp" title="adj_list1.cpp" tooltip="Graph_Basic/src/adj_list1.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Graph_Basic/src/adj_list1.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="165" selectionTopPixel="169"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Graph_Basic.cpp" partName="Graph_Basic.cpp" path="/Users/aniacharya/Desktop/Common-Interview-Questions/Graph_Basic/src/Graph_Basic.cpp" title="Graph_Basic.cpp" tooltip="Graph_Basic/src/Graph_Basic.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Graph_Basic/src/Graph_Basic.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1082" selectionTopPixel="365"/>
 </editor>
 </editors>
 <views>
@@ -47,9 +52,7 @@
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>&#x0A;<category IMemento.internal.id="Errors"/>
-</expanded>
-<columnWidths org.eclipse.ui.ide.locationField="84" org.eclipse.ui.ide.markerType="114" org.eclipse.ui.ide.pathField="144" org.eclipse.ui.ide.resourceField="114" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -66,7 +69,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.cdt.ui.CPerspective">
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.eclipse.cdt.ui.CPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.cdt.internal.ui.CPerspectiveFactory" id="org.eclipse.cdt.ui.CPerspective" label="C/C++"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -147,7 +150,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="254" ratioRight="762" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottom" ratio="0.74963397" ratioLeft="512" ratioRight="171" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.78367347" ratioLeft="576" ratioRight="159" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -182,12 +185,65 @@
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Intelletec/src/Find_Repeated_Characters"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Intelletec/src/Find_Repeated_Characters.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Graph_Basic/src/Graph_Basic.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Graph_Basic/src/adj_list1.cpp"/>
 </editors>
 <item historyLabel="Find_Repeated_Characters" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="Find_Repeated_Characters.cpp" index="1">
+<item historyLabel="Find_Repeated_Characters.cpp" index="1">
 <position info="not_deleted" x="2529" y="0"/>
+</item>
+<item historyLabel="Graph_Basic.cpp" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Graph_Basic.cpp" index="2">
+<position info="not_deleted" x="454" y="0"/>
+</item>
+<item historyLabel="Graph_Basic.cpp" index="2">
+<position info="not_deleted" x="382" y="0"/>
+</item>
+<item historyLabel="Graph_Basic.cpp" index="2">
+<position info="not_deleted" x="501" y="0"/>
+</item>
+<item historyLabel="Graph_Basic.cpp" index="2">
+<position info="not_deleted" x="621" y="0"/>
+</item>
+<item historyLabel="Graph_Basic.cpp" index="2">
+<position info="not_deleted" x="742" y="0"/>
+</item>
+<item historyLabel="Graph_Basic.cpp" index="2">
+<position info="not_deleted" x="741" y="0"/>
+</item>
+<item historyLabel="Graph_Basic.cpp" index="2">
+<position info="not_deleted" x="800" y="0"/>
+</item>
+<item historyLabel="Graph_Basic.cpp" index="2">
+<position info="not_deleted" x="931" y="0"/>
+</item>
+<item historyLabel="Graph_Basic.cpp" index="2">
+<position/>
+</item>
+<item historyLabel="adj_list1.cpp" index="3">
+<position info="not_deleted" x="2037" y="0"/>
+</item>
+<item historyLabel="Graph_Basic.cpp" index="2">
+<position/>
+</item>
+<item historyLabel="Graph_Basic.cpp" index="2">
+<position info="not_deleted" x="907" y="26"/>
+</item>
+<item historyLabel="Graph_Basic.cpp" index="2">
+<position info="not_deleted" x="609" y="0"/>
+</item>
+<item historyLabel="adj_list1.cpp" index="3">
+<position info="not_deleted" x="2037" y="0"/>
+</item>
+<item historyLabel="Graph_Basic.cpp" index="2">
+<position info="not_deleted" x="1082" y="0"/>
+</item>
+<item active="true" historyLabel="adj_list1.cpp" index="3">
+<position info="not_deleted" x="2037" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -206,6 +262,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Graph_Basic.cpp" tooltip="Graph_Basic/src/Graph_Basic.cpp">
+<persistable path="/Graph_Basic/src/Graph_Basic.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="adj_list1.cpp" tooltip="Graph_Basic/src/adj_list1.cpp">
+<persistable path="/Graph_Basic/src/adj_list1.cpp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Find_Repeated_Characters.cpp" tooltip="Intelletec/src/Find_Repeated_Characters.cpp">
 <persistable path="/Intelletec/src/Find_Repeated_Characters.cpp"/>
 </file>
