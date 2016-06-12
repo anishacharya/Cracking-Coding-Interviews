@@ -1,0 +1,52 @@
+#1. Design Uber
+#2. Design Uber Pool
+#3. LRU cache
+#4. Hashtable Implementation
+#5. Round Robin Counter Implementation
+#6. Bipartite graph check
+#7. Binary tree serialization/deserialization
+#8. Best time to Buy and Sell Stock
+#9. Minumum edit distance
+#10. Find overlapping meeting times
+#11. Implement autocomplete system  
+#12. Balanced Parathesis
+#13. Distance between siblings in trees
+#14. External Sorting
+#15. Given a string s and a dictionary of words dict, determine if s can be segmented into a space-separated sequence of one or more dictionary words. 
+
+For example, given 
+s = "leetcode", 
+dict = ["leet", "code"]. 
+
+Return true because "leetcode" can be segmented as "leet code".
+
+
+#16. Given an api which returns an array of chemical names and an array of chemical symbols, display the chemical names with their symbol surrounded by square brackets: 
+
+Ex: 
+Chemicals array: ['Amazon', 'Microsoft', 'Google'] 
+Symbols: ['I', 'Am', 'cro', 'Na', 'le', 'abc'] 
+
+Output: 
+[Am]azon, Mi[cro]soft, Goog[le] 
+
+If the chemical string matches more than one symbol, then choose the one with longest length. (ex. 'Microsoft' matches 'i' and 'cro') 
+
+My solution: 
+(I sorted the symbols array in descending order of length and ran loop over chemicals array to find a symbol match(using indexOf in javascript) which worked. But I din't make it through the interview, I am guessing my solution was O(n2) and they expected an efficient algorithm.
+
+#17. Design a Twitter feeds API. How would you actually connect it from a mobile? What happens behind the Twitter network? how do the Trends get published? From where does Twitter get the information for a particular trend(Eg: #Obama, #nfl) and publish it out? What protocol does it use? How do you connect to Twitter API? How does Twitter handle multiple connections?
+
+#18. Given string a and b, with b containing all distinct characters, find the longest common subsequence's 
+
+#19. Given an array of numbers, for every index i, find nearest index j such that a[j] > a[i].If such an index doesn’t exist for i, ­1 should be printed.
+
+#20. Power
+#21. Sudoku
+#22. How would you improve Uber? 
+#23. find the kth smallest element of a BST. What are the purposes of a heap.
+#24. Isomorphic string
+#25. Implementing the substring method  
+#26. Finding kth smallest element in a BST 
+
+
