@@ -1,55 +1,59 @@
-public class Solution {
-    public int calculate(String s) 
+class Solution {
+public:
+   int calculate(string s) 
+   {
+    int res = 0, n = s.size(), sign = 1;
+    stack<int> nums;
+    
+    for (int i = 0; i < n; i++) 
     {
-    int n;
-    if(s == null || (n = s.length()) == 0) 
-    {
-        return 0;
-    }
-    
-    int num = 0;
-    
-    Stack<Integer> stack = new Stack<>();
-    
-    char sign = '+';
-    
-    for(int i = 0; i <= n; i++) 
-    {
-        char c = i == n ? 0 : s.charAt(i);
-        
-        if(Character.isDigit(c)) 
+        if (isdigit(s[i])) 
         {
-            num = num * 10 + c - '0';
-        }
-        
-        if(!Character.isDigit(c) && c != ' ') 
-        {
-            if(sign == '+') 
+            int num = s[i] - '0';
+            while (i + 1 < n && isdigit(s[i + 1])) 
             {
-                stack.push(num);
-            } 
-            else if(sign == '-') 
-            {
-                stack.push(-num);
-            } 
-            else if(sign == '*') 
-            {
-                stack.push(stack.pop() * num);
-            } 
-            else if(sign == '/') 
-            {
-                stack.push(stack.pop() / num);
+                num = num * 10 + s[i + 1]-'0';
+                i++;
             }
             
-            num = 0;
-            sign = c;
+            res += sign * num;
+        }
+        
+        else if (s[i] == '+') 
+        {
+            sign = 1;
+            nums.push(res);
+            res = 0;
+        }
+        else if (s[i] == '-') 
+        {
+            sign = -1;
+            nums.push(res);
+            res = 0;
+        }
+        
+        else if (s[i] == '*' || s[i] == '/') 
+        {
+            char op = s[i];
+            int temp = 0;
+            
+            while (i + 1 < n && s[i + 1] == ' ')
+                i++;
+            while (i + 1 < n && isdigit(s[i + 1])) 
+            {
+                temp = temp * 10 + s[i + 1] - '0';
+                i++;
+            }
+            if (op == '*')
+                res *= temp;
+            else
+                res /= temp;
         }
     }
-    int res = 0;
-    for(int i : stack) 
-    {
-        res += i;
+    while (!nums.empty()) {
+        res += nums.top();
+        nums.pop();
     }
     return res;
 }
-}
+};
