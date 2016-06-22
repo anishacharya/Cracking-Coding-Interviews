@@ -10,9 +10,6 @@ IP1, IP5, IP7
 Consider IPs as Strings or any other data type.
 */
 
-
-
-
 #include <iostream>
 #include <map>
 #include <vector>
@@ -39,7 +36,10 @@ set<string>Unique(map<string,string>M)
             }
             else    
             {
-                Output.erase(it->first);
+                cout <<"deleting: " << it->first<<endl;
+		cout << "it ->second is: " << it->second << endl;
+		Output.erase(it->first);
+		
             }
             
         }
