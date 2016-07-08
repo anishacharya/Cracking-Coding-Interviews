@@ -54,4 +54,9 @@
 #51. Binary to Decimal
 #52. K th Largest in Unsorted Array
 #53. Find Duplicates in two sorted arrays
-  
+#54. Multiply 2 large Numbers stored in string
+#55. Display the number of retweets a tweet gets using 4 characters total with max one position past the decimal point in US and Indonesian standard (eg 1.5 b, 3.2k)  
+#56. Given an array where all numbers except one are repeated, find the number that only occurs once.  
+#57. Create a program that will count the number of common terms between an arithmetic and geometric sequence.  
+#58. Print all the paths from a root to the leaves of a binary tree.  
+**#59. Estimate pi using random number generator  
