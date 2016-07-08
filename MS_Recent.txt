@@ -47,4 +47,11 @@
 #46.Given a random list of integers write a function that returns sets taken from the list such that the sum of these numbers is equal (if possible).
 #47.Add a node on an ordered linked list  
 #48.write a function to find the n-th fibonacci number
-#49.  
+#49.
+
+#################
+#50. Rat and Maze
+#51. Binary to Decimal
+#52. K th Largest in Unsorted Array
+#53. Find Duplicates in two sorted arrays
+  
