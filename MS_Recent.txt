@@ -60,3 +60,18 @@
 #57. Create a program that will count the number of common terms between an arithmetic and geometric sequence.  
 #58. Print all the paths from a root to the leaves of a binary tree.  
 **#59. Estimate pi using random number generator  
+#60. Implement int to string (itoa) and string to int (atoi)
+#61. What is the static keyword and where can it be used and why?
+#62. Explain virtual functions and ploymorphism.
+#63. Explain how a constructor works.
+#64. Explain how inner/nested classes work.
+#65. Why is it dangerous to return the address of a local variable from a function?
+#66. How a Hash Table/Map Works
+#67. Dedupe a File of Strings
+#68. Swap
+#69. Shuffle an Array
+#70. Find First Duplicate in a String
+#71. Find Duplicate Integers in an Array
+#72. Level Traversal of a Binary Tree
+#73. Find Two Array Elements Summing to a Given Number
+
