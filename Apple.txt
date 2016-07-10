@@ -11,4 +11,10 @@
 #11. Find the first non-repeated element in C  
 #12. Given a BST print the nodes at each level on a seperate Line.
 #13. Reverse a string  
+#14. first repeated integer from a given array
+#15. given an integer, write code to list all primes preceding it.  
+#16. Given an array with N - 2 elements (two missing) from 1 to N, find the two missing elements in linear time and constant memory usage.  
+#17. implement strstr()   // LeetCode
+#18. BST to Sorted List
+#19. Implement iterator for a BST to iterate nodes in ascending order
 
