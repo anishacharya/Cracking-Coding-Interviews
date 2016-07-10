@@ -1,0 +1,14 @@
+#1. merge sort 
+#2. What are challenges of distributed computing and how to handle them.
+#3. Reverse a linkedlist recursively  
+#4. Write a basic fibonnaci sequence implementation 
+#5. Hashtable mechanism  
+#6. find the most frequent element in an integer array 
+#7. Kth largest number in an array. 
+#8. What is deadlock and how is it prevented?
+#9. Given a set of interval tuples, find the longest overlapping interval
+#10. Implement a queue using array or linkedlist.  
+#11. Find the first non-repeated element in C  
+#12. Given a BST print the nodes at each level on a seperate Line.
+#13. Reverse a string  
+
