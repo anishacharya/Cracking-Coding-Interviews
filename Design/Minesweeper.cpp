@@ -52,7 +52,7 @@ void place_mines(vector<vector<Node> >&Board, int &N)
     }
 
     int random = rand() % (m * n);
-    int row = random / n; int col = random % m;
+    int row = random / n; int col = random % n;
 
     if(Board[row][col].mine == false)
     {
