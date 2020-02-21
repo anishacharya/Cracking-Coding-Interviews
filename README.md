@@ -1,5 +1,5 @@
 ## Past-Interview-Questions:
-*This repository contains my very old (2013) implementations of some common questions often asked at interviews (mostly) taken from the resources listed as reference or some other random online discussion I came across*
+*This repository contains my very old (2013) implementations of some common questions often asked in interviews. These are (mostly) taken from the resources listed as reference or some other random online discussion I came across*
 
 *If you use this codebase for your interviews and want to build on this please feel free to* **collaborate** 
 
